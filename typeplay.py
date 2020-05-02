@@ -29,12 +29,17 @@ c = int(c)
 print(c, type(c))
 c = float(c)
 print(c, type(c)) #note value of new float
+c = str(c)
+print(c, type(c)) #note string not printed!
+d = int(5)
+e = str(d)
+print(d, type(d))
 
 #strings
 s = "python is the best ever"
 print(type(s))
 t = 'and this is also a string'
-r = """this
+r = """\nthis
 is a 
 string across
 multiple lines"""
@@ -42,10 +47,4 @@ print(s, t, r)
 i = str(666) #cast the devil as a string
 print(i, type(i))
 print("concat"+"enation") #run strings together
-print("newline\nspace tab\t") #whitespace special characters for strings - avoid with r at beginning ofs string
-
-
-
-
-
-
+print("newline\nspace tab\t") #whitespace special characters for strings - avoid with r at beginning of string
