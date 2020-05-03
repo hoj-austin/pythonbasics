@@ -5,6 +5,8 @@ Script for playing with basic python data types
 #bool
 x, y = True, False
 print(x == y, x != y)
+a, b = 2, 3
+print(a < b, b < a)
 
 #integer
 x = 3
