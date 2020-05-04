@@ -1,6 +1,8 @@
 """
 Script for keyword and function play
 """
+
+
 # bool algebra
 x, y = True, False
 print(x and y)  # false

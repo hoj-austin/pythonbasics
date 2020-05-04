@@ -2,6 +2,7 @@
 Script for playing with basic python data structures
 """
 
+
 # lists - square brackets - mutable (changeable)
 listA = [1,2,3]
 print("listA ", listA) 

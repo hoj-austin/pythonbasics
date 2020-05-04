@@ -2,6 +2,7 @@
 Script for playing with basic python data types
 """
 
+
 # bool
 x, y = True, False
 print(x == y, x != y)

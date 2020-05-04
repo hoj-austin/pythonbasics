@@ -2,6 +2,7 @@
 Scipt for playing with classes - Object Oriented Programming
 """
 
+
 class Aircraft: # because planes and helicopters are awesome
     airspace = 'troposphere'    # class variable shared in all instances
 

@@ -2,6 +2,7 @@
 Script for random useful functions and tricks
 """
 
+
 # map - map a function to iterate on all elements
 minutes = map(lambda t: t[len(t)-2:], ['1200', '1213', '1247', '1306'])
 print(list(minutes))
