@@ -20,7 +20,6 @@ while len(hangar) > 0:
     print(hangar)
 print('While loop with break complete! You get to keep your Cessna')
 
-
 newHangar = ['aerostar', 'R22', 'EC130', 'cheiftain', 'H300']
 print(newHangar)
 while len(newHangar) > 0:
@@ -63,5 +62,4 @@ def beerFunction(day):
     elif day == 'Wednesday' or 'Thursday':
         beers = 1
     return beers
-
 print('Tonight you can have: ', beerFunction('Friday'), ' beers')
