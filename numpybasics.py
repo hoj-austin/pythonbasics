@@ -26,9 +26,8 @@ print(newArray)
 b = np.average(newArray)
 print(b)
 
-# slicing
 a = np.array([0,1,0,0,0])
-a[::2] = 2  # slice is in form of [start:stop:step]
+a[::2] = 2  # array slicing: it's in form of [start:stop:step]
 print(a)
 
 variance = np.var(newArray)
