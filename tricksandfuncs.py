@@ -13,7 +13,8 @@ planes = map(lambda x, y: str(x) + ' ' + y + 's', planeQuantities, planeTypes)
 print(list(planes))
 
 # sorting based on a key function
-
+keySorting = sorted([0,1,4], key=lambda x: 0 if x == 4 else x)
+print('key sorting ', keySorting)
 
 # more useful stuff for iterables
 randoString = ' pilot '
